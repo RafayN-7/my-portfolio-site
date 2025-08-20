@@ -9,31 +9,24 @@ import { GithubIcon, LinkedinIcon, MailIcon, ArrowRightIcon, SparklesIcon, Layou
 
 const PROJECTS = [
   {
-    title: "AI Agent Platform",
-    description: "A platform for building, deploying, and managing autonomous AI agents with natural language interfaces.",
-    tags: ["AI", "Agents", "Next.js", "LangChain", "OpenAI"],
+    title: "Agentic AI Website Builder",
+    description: "Engineered an innovative AI-driven platform for building websites, leveraging Inngest for workflow orchestration, Next.js 15, React 19, TanStack for state management, Clerk for secure authentication and billing, ShadCN UI components, tRPC for type-safe APIs, Prisma ORM with NeonDB, E2B for sandboxed environments, Docker for containerization, PostgreSQL database, and Tailwind CSS for styling. Incorporated intelligent AI agents from OpenAI, Grok, and Claude to deliver enhanced automation and user interactions.",
+    tags: ["AI", "Agents", "Inngest", "Nextjs 15", "React 19", "Tanstack", "Clerk", "ShadCN ui", "TRPC", "Prisma", "Neon", "E2B", "Docker", "PostgreSQL" , "TailwindCSS", "Ai agents", "Open Ai", "Grok", "Claude"],
     emoji: "🤖",
-    link: "#",
+    link: "https://codegen-silk.vercel.app/",
   },
   {
-    title: "MERN Task Manager",
-    description: "A full-featured task manager app built with MongoDB, Express, React, and Node.js.",
-    tags: ["MERN", "React", "Node.js", "MongoDB"],
+    title: "Agentic AI-Driven Music Composition SaaS Platform",
+    description: "Built an innovative SaaS application that harnesses cutting-edge AI to generate original music from user inputs such as text descriptions, custom lyrics, or stylistic prompts. The platform offers a robust, production-ready environment with secure user authentication, a credit-based payment system via Polar.sh, and efficient background processing queues to handle high user volumes. Leveraging a modern tech stack, including Next.js 15, React, TypeScript, Tailwind CSS, ShadCN, BetterAuth, Polar, Python, FastAPI, Modal, Inngest, Neon, AWS S3, and additional technologies.",
+    tags: ["Next.js 15", "React", "Typescript", "Tailwind CSS", "ShadCN", "BetterAuth", "Polar", "Python", "FastAPI", "Modal", "Inngest", "Neon", "S3 on AWS"],
     emoji: "📋",
-    link: "#",
+    link: "https://ai-music-generator-frontend-t1t7.vercel.app/",
   },
   {
     title: "Realtime Chat App",
     description: "A real-time chat application with group and private messaging, built on the MERN stack.",
     tags: ["MERN", "Socket.io", "Chat", "React"],
     emoji: "💬",
-    link: "#",
-  },
-  {
-    title: "AI Image Generator",
-    description: "Generate stunning images from text prompts using advanced AI models.",
-    tags: ["AI", "Stable Diffusion", "Next.js"],
-    emoji: "🎨",
     link: "#",
   },
 ];
@@ -166,7 +159,7 @@ function Footer() {
   return (
     <footer className="w-full py-8 px-4 md:px-12 bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800 text-center text-gray-500 dark:text-gray-400 text-sm">
       <div className="flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto gap-2">
-        <span>© {new Date().getFullYear()} My Portfolio. All rights reserved.</span>
+        <span>© {new Date().getFullYear()} Rafay Nauman Sultan's Portfolio Website. All rights reserved.</span>
         <span>
           Built with <span className="text-indigo-500">Next.js</span> & <span className="text-pink-500">Shadcn UI</span>
         </span>
