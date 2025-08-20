@@ -79,7 +79,7 @@ function Hero() {
     <section className="relative flex flex-col items-center justify-center min-h-[60vh] py-16 text-center overflow-hidden">
       <div className="absolute inset-0 -z-10 bg-gradient-to-br from-indigo-100 via-white to-pink-100 dark:from-gray-900 dark:via-gray-800 dark:to-indigo-900 animate-gradient-x" />
       <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent animate-fade-in-up">
-        Hi, I'm a <span className="underline decoration-wavy decoration-indigo-400">MERN</span> & <span className="underline decoration-wavy decoration-pink-400">AI</span> Developer
+        Hi, I&apos;m a <span className="underline decoration-wavy decoration-indigo-400">MERN</span> & <span className="underline decoration-wavy decoration-pink-400">AI</span> Developer
       </h1>
       <p className="mt-6 max-w-xl mx-auto text-lg md:text-2xl text-gray-700 dark:text-gray-300 animate-fade-in-up delay-150">
         I build modern web apps and smart AI solutions. Explore my projects below!
@@ -159,7 +159,7 @@ function Footer() {
   return (
     <footer className="w-full py-8 px-4 md:px-12 bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800 text-center text-gray-500 dark:text-gray-400 text-sm">
       <div className="flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto gap-2">
-        <span>© {new Date().getFullYear()} Rafay Nauman Sultan's Portfolio Website. All rights reserved.</span>
+        <span>© {new Date().getFullYear()} Rafay Nauman Sultan&apos;s Portfolio Website. All rights reserved.</span>
         <span>
           Built with <span className="text-indigo-500">Next.js</span> & <span className="text-pink-500">Shadcn UI</span>
         </span>
