@@ -35,7 +35,7 @@ const SOCIALS = [
   {
     icon: GithubIcon,
     label: "GitHub",
-    href: "https://github.com/",
+    href: "https://github.com/RafayN-7",
   },
   {
     icon: LinkedinIcon,
