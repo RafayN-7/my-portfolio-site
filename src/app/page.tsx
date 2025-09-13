@@ -27,7 +27,7 @@ const PROJECTS = [
     description: "Developed an AI-driven customer support solution as a comprehensive, full-stack B2B SaaS application ready for production. Utilized Pnpm v10 for package management, Turborepo for monorepo builds, Next.js 15, Tailwind CSS v4, React 19, and TypeScript in a monorepo setup with shadcn/ui components. Integrated real-time AI chatting via Convex Agents, incorporated voice capabilities using VAPI, and supported document uploads to create a knowledge base leveraging embeddings and Retrieval-Augmented Generation (RAG). Enabled AI to intelligently escalate issues to human support or automatically resolve dialogues. Handled billing and user authentication through Clerk, embedded a customizable chat widget, securely stored API keys in AWS, and implemented error tracking with Sentry.",
     tags: ["Pnpm v10", "Turborepo", "Next 15", "Tailwind v4", "React 19", "shadcn/ui", "typescript", "Convex Agents", "VAPI", "Clerk", "AWS", "Sentry"],
     emoji: "💬",
-    link: "#",
+    link: "https://next15-echo-web-six.vercel.app/",
   },
 ];
 
